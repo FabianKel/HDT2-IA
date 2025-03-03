@@ -7,7 +7,7 @@ grid_size = 4
 reward_goal = 1
 reward_hole = -1
 
-def create_environment(seed=42):
+def create_environment(seed=40):
     np.random.seed(seed)
     env = np.zeros((grid_size, grid_size))
     start = (0, 0)
